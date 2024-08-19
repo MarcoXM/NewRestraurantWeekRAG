@@ -1,0 +1,370 @@
+cuisine,location,headline,menu_url,file_path
+Indian, Upper West Side, Anār,,
+French, West Village, Bobo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39484-Bobo-menu.pdf,menu_urls/bobo.pdf
+French, Midtown West, Gaby Brasserie,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/28930-GabyBrasserie-menu.pdf,menu_urls/gaby-brasserie.pdf
+French, Boerum Hill, French Louie,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39050-FrenchLouie-menu.pdf,menu_urls/french-louie.pdf
+Italian, Long Island City, Il Falco,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45823-IlFalco-menu.pdf,menu_urls/il-falco.pdf
+American (New), Nomad, The Flatiron Room - NoMad,,
+French, Soho, La Sirene,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38865-LaSirene-menu.pdf,menu_urls/la-sirene.pdf
+Mediterranean, Gramercy, Barbounia,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/27737-Barbounia-menu.pdf,menu_urls/barbounia.pdf
+American (New), The Seaport, Industry Kitchen,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/42604-IndustryKitchen-menu.pdf,menu_urls/industry-kitchen.pdf
+American (Traditional), Chelsea, City Cruises by Hornblower,,
+American (Traditional), Upper West Side, 5 Napkin Burger - Upper West Side,,
+Italian, East Village, Bar Primi - Bowery,,
+American (Traditional), Carroll Gardens, Buttermilk Channel,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39461-ButtermilkChannel-menu.pdf,menu_urls/buttermilk-channel.pdf
+Italian, Murray Hill, Villa Berulia,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/12618-VillaBerulia-menu.pdf,menu_urls/villa-berulia.pdf
+Italian, Chelsea, Bocca Di Bacco—Chelsea,,
+Chinese, Garment District, Sei Less,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46461-SeiLess-menu.pdf,menu_urls/sei-less.pdf
+Italian, Greenwich Village, Osteria 57,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41052-Osteria57-menu.pdf,menu_urls/osteria-57.pdf
+American (New), Chelsea, The Frying Pan,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39890-FryingPan-menu.pdf,menu_urls/the-frying-pan.pdf
+Middle Eastern, Greenwich Village, Kubeh,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46004-Kubeh-menu.pdf,menu_urls/kubeh.pdf
+Italian, West Village, Suprema Provisions,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46205-SupremaProvisions-menu.pdf,menu_urls/suprema-provisions.pdf
+Mexican, Midtown East, Sinigual,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/34541-Sinigual-menu.pdf,menu_urls/sinigual.pdf
+Italian, Lower Manhattan, La Pizza & La Pasta – Eataly NYC Downtown,,
+Seafood, Flatiron District, Sagaponack,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47782-Sagaponack-menu.pdf,menu_urls/sagaponack.pdf
+Pan-Asian, Lower East Side, Pig and Khao,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39110-PigandKhao-menu.pdf,menu_urls/pig-and-khao.pdf
+Greek, Upper West Side, Eléa,,
+French, The Seaport, The Paris Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48817-TheParisCafe-menu.pdf,menu_urls/the-paris-cafe.pdf
+Eclectic, East Harlem, Contento,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45848-Contento-menu.pdf,menu_urls/contento.pdf
+Italian, Times Square/Theatre District, Barbetta,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/7380-Barbetta-menu.pdf,menu_urls/barbetta.pdf
+Italian, Williamsburg, Antica Pesa,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37936-AnticaPesa-menu.pdf,menu_urls/antica-pesa.pdf
+Italian, Hells Kitchen, Bocca Di Bacco—Hell's Kitchen,,
+American (Traditional), Harlem, Harlem Shake - Harlem,,
+American (Traditional), West Village, Anton's,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48770-Anton%27s-menu.pdf,menu_urls/antons.pdf
+French, West Village, Petite Boucherie,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40774-PetiteBoucherie-menu.pdf,menu_urls/petite-boucherie.pdf
+French, Nomad, Koloman,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48440-Koloman-menu.pdf,menu_urls/koloman.pdf
+American (New), Times Square/Theatre District, Bacall’s,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41032-Bacall%E2%80%99s-menu.pdf,menu_urls/bacalls.pdf
+Italian, West Village, Rosemary's West Village,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45429-Rosemary%27sWestVillage-menu.pdf,menu_urls/rosemarys-west-village.pdf
+Mexican, Upper West Side, El Coco - Upper West Side,,
+American (New), Battery Park City, Atrio Wine Bar & Restaurant,,
+Mexican, Meatpacking District, Dos Caminos Meatpacking District,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/24743-DosCaminosMeatpackingDistrict-menu.pdf,menu_urls/dos-caminos-meatpacking-district.pdf
+American (New), Central Park, Tavern on the Green,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/8153-TavernontheGreen-menu.pdf,menu_urls/tavern-on-the-green.pdf
+Mexican, Greenwich Village, La Contenta Oeste,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44485-LaContentaOeste-menu.pdf,menu_urls/la-contenta-oeste.pdf
+Steakhouse, Flatiron District, Yakiniku Futago,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44775-YakinikuFutago-menu.pdf,menu_urls/yakiniku-futago.pdf
+Latin American, Hells Kitchen, La Pulperia,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37671-LaPulperia-menu.pdf,menu_urls/la-pulperia.pdf
+American (New), Midtown West, Redeye Grill,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/9618-RedeyeGrill-menu.pdf,menu_urls/redeye-grill.pdf
+Spanish, Chelsea, Socarrat Paella Bar - Chelsea,,
+Soul Food / Southern, Upper West Side, Jacob's Pickles,,
+American (New), East Village, Virginia's,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39507-Virginia%27s-menu.pdf,menu_urls/virginias.pdf
+French, Gramercy, L'Express,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/23934-L%27Express-menu.pdf,menu_urls/lexpress.pdf
+Steakhouse, Midtown West, Strip House Midtown,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37491-StripHouseMidtown-menu.pdf,menu_urls/strip-house-midtown.pdf
+American (New), Gramercy, Union Square Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/9748-UnionSquareCafe-menu.pdf,menu_urls/union-square-cafe.pdf
+American (New), West Village, Perry Street,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/27429-PerryStreet-menu.pdf,menu_urls/perry-street.pdf
+American (New), Garment District, Harta,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47823-Harta-menu.pdf,menu_urls/harta.pdf
+French, Upper West Side, La Sirene UWS,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40695-LaSireneUWS-menu.pdf,menu_urls/la-sirene-uws.pdf
+Italian, Herald Square, Stella 34 Trattoria,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37733-Stella34Trattoria-menu.pdf,menu_urls/stella-34-trattoria.pdf
+Steakhouse, Upper East Side, BLT Prime,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/27561-BLTPrime-menu.pdf,menu_urls/blt-prime.pdf
+Thai, Upper West Side, Wau,,
+Japanese / Sushi, Midtown East, Soba Totto,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46449-SobaTotto-menu.pdf,menu_urls/soba-totto.pdf
+Steakhouse, Midtown East, Tudor City Steakhouse,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40202-TudorCitySteakhouse-menu.pdf,menu_urls/tudor-city-steakhouse.pdf
+Italian, Hudson Square, Nonna Beppa,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40766-NonnaBeppa-menu.pdf,menu_urls/nonna-beppa.pdf
+Thai, Flushing, When in Bangkok,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46446-WheninBangkok-menu.pdf,menu_urls/when-in-bangkok.pdf
+American (Traditional), Upper East Side, Dowling’s at The Carlyle,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/23240-Dowling%E2%80%99satTheCarlyle-menu.pdf,menu_urls/dowlings-at-the-carlyle.pdf
+Italian, Gramercy, Vallata,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46368-Vallata-menu.pdf,menu_urls/vallata.pdf
+Spanish, Nolita, Socarrat Paella Bar - Nolita,,
+Italian, Gramercy, Isabelle's Osteria,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40038-Isabelle%27sOsteria-menu.pdf,menu_urls/isabelles-osteria.pdf
+American (New), Soho, NoMo Kitchen,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41375-NoMoKitchen-menu.pdf,menu_urls/nomo-kitchen.pdf
+Italian, Upper East Side, Felice 64,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39747-Felice64-menu.pdf,menu_urls/felice-64.pdf
+Korean, Chelsea, Nangman BBQ,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48339-NangmanBBQ-menu.pdf,menu_urls/nangman-bbq.pdf
+Turkish, Flatiron District, Nar Restaurant,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48600-NarRestaurant-menu.pdf,menu_urls/nar-restaurant.pdf
+Greek, Hudson Yards, Kyma Hudson Yards,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46176-KymaHudsonYards-menu.pdf,menu_urls/kyma-hudson-yards.pdf
+Spanish, Hudson Yards, Spanish Diner at Mercado Little Spain,,
+American (New), Park Slope, Stone Park Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/28852-StoneParkCafe-menu.pdf,menu_urls/stone-park-cafe.pdf
+Greek, Upper East Side, Anassa Taverna - Manhattan,,
+Seafood, Chelsea, Cull & Pistol Oyster Bar,,
+Spanish, Midtown East, Socarrat Paella Bar - Midtown East,,
+Italian, Little Italy, Grotta Azzurra,,
+French, Midtown West, La Grande Boucherie,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46075-LaGrandeBoucherie-menu.pdf,menu_urls/la-grande-boucherie.pdf
+Mexican, Hells Kitchen, El Coco - Hell's Kitchen,,
+Italian, Midtown West, Felice 56,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41391-Felice56-menu.pdf,menu_urls/felice-56.pdf
+Japanese / Sushi, Flatiron District, The Gallery,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45551-Gallery-menu.pdf,menu_urls/the-gallery.pdf
+American (Traditional), Murray Hill, Stout NYC Grand Central,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46500-StoutNYCGrandCentral-menu.pdf,menu_urls/stout-nyc-grand-central.pdf
+Italian, East Village, Hearth,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38974-Hearth-menu.pdf,menu_urls/hearth.pdf
+Seafood, Midtown East, Ammos Estiatorio - Grand Central,,
+Japanese / Sushi, Lower East Side, Rabbit House Omakase & Sake Bar,,
+Seafood, Red Hook, Red Hook Lobster Pound,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44208-RedHookLobsterPound-menu.pdf,menu_urls/red-hook-lobster-pound.pdf
+Steakhouse, Chelsea, Catch Steak New York,,
+Mexican, Times Square/Theatre District, Dos Caminos Times Square,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38992-DosCaminosTimesSquare-menu.pdf,menu_urls/dos-caminos-times-square.pdf
+American (New), Kips Bay, Riverpark,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36117-Riverpark-menu.pdf,menu_urls/riverpark.pdf
+Italian, West Village, Alice,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/24275-Alice-menu.pdf,menu_urls/alice.pdf
+Italian, Midtown West, Trattoria Dell'Arte,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/9736-TrattoriaDell%27Arte-menu.pdf,menu_urls/trattoria-dellarte.pdf
+Italian, Flatiron District, Serra by Birreria,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36098-SerrabyBirreria-menu.pdf,menu_urls/serra-by-birreria.pdf
+Seafood, Meatpacking District, Catch NYC,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36938-CatchNYC-menu.pdf,menu_urls/catch-nyc.pdf
+American (New), Times Square/Theatre District, Broadway Lounge,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/7425-BroadwayLounge-menu.pdf,menu_urls/broadway-lounge.pdf
+Italian, Upper East Side, Uva Next Door,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46450-UvaNextDoor-menu.pdf,menu_urls/uva-next-door.pdf
+Italian, Times Square/Theatre District, La Masseria,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/25577-LaMasseria-menu.pdf,menu_urls/la-masseria.pdf
+Thai, Greenpoint, Kru,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48044-Kru-menu.pdf,menu_urls/kru.pdf
+Steakhouse, Midtown East, Club A Steakhouse,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/35452-ClubASteakhouse-menu.pdf,menu_urls/club-a-steakhouse.pdf
+Italian, Hells Kitchen, Masseria Dei Vini,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38773-MasseriaDeiVini-menu.pdf,menu_urls/masseria-dei-vini.pdf
+American (New), Upper East Side, David Burke Tavern,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39746-DavidBurkeTavern-menu.pdf,menu_urls/david-burke-tavern.pdf
+Mexican, Park Slope, Fonda - Park Slope,,
+Italian, The Seaport, Frenchman's Dough at Tin Building by Jean-Georges,,
+Delicatessen, Bayside, Ben's Kosher Restaurant & Delicatessen—Bayside,,
+Steakhouse, Soho, Il Mulino Prime | Soho,,
+American (New), Times Square/Theatre District, Burger & Lobster—Bryant Park,,
+American (New), Murray Hill, The Flatiron Room - Murray Hill,,
+Italian, Gramercy, Carlotto,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48133-Carlotto-menu.pdf,menu_urls/carlotto.pdf
+Middle Eastern, Harlem, Tsion Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41285-TsionCafe-menu.pdf,menu_urls/tsion-cafe.pdf
+American (New), Greenwich Village, Society Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37901-SocietyCafe-menu.pdf,menu_urls/society-cafe.pdf
+American (New), Forest Hills, keuka-kafe-a-wine-bar,,
+Italian, Williamsburg, Leuca,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40160-Leuca-menu.pdf,menu_urls/leuca.pdf
+American (Traditional), Gramercy, Pete's Tavern,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38770-Pete%27sTavern-menu.pdf,menu_urls/petes-tavern.pdf
+Chinese, Midtown East, Hutong,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41187-Hutong-menu.pdf,menu_urls/hutong.pdf
+Gastropub, Herald Square, Rowland's Bar & Grill,,
+Steakhouse, Greenwich Village, Strip House Downtown,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/18274-StripHouseDowntown-menu.pdf,menu_urls/strip-house-downtown.pdf
+Seafood, Midtown West, Ocean Prime,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38880-OceanPrime-menu.pdf,menu_urls/ocean-prime.pdf
+Italian, Upper West Side, Lincoln Ristorante,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36125-LincolnRistorante-menu.pdf,menu_urls/lincoln-ristorante.pdf
+American (New), Times Square/Theatre District, The Terrace and Outdoor Gardens,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41663-TerraceandOutdoorGardens-menu.pdf,menu_urls/the-terrace-and-outdoor-gardens.pdf
+American (Traditional), Upper West Side, Maison Pickle,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41039-MaisonPickle-menu.pdf,menu_urls/maison-pickle.pdf
+Chinese, Upper East Side, Philippe by Philippe Chow,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/28305-PhilippebyPhilippeChow-menu.pdf,menu_urls/philippe-by-philippe-chow.pdf
+Steakhouse, Midtown West, Nick + Stef's Steakhouse,,
+Seafood, Midtown East, Docks Oyster Bar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/31572-DocksOysterBar-menu.pdf,menu_urls/docks-oyster-bar.pdf
+Italian, Flatiron District, La Pizza & La Pasta,,
+Japanese / Sushi, Flatiron District, Ootoya - Chelsea,,
+Mexican, Times Square/Theatre District, Pink Taco,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47784-PinkTaco-menu.pdf,menu_urls/pink-taco.pdf
+Seafood, Soho, Lure Fishbar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/29985-LureFishbar-menu.pdf,menu_urls/lure-fishbar.pdf
+Italian, Forest Hills, Tuscan Hills,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44240-TuscanHills-menu.pdf,menu_urls/tuscan-hills.pdf
+Italian, East Village, Gnocco,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/35801-Gnocco-menu.pdf,menu_urls/gnocco.pdf
+American (New), Boerum Hill, As You Are,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46671-AsYouAre-menu.pdf,menu_urls/as-you-are.pdf
+American (New), Times Square/Theatre District, The Independent,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46076-Independent-menu.pdf,menu_urls/the-independent.pdf
+Thai, Gramercy, Malii Gramercy,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46060-MaliiGramercy-menu.pdf,menu_urls/malii-gramercy.pdf
+Mexican, Chelsea, El Coco - Chelsea,,
+French, West Village, Boucherie West Village,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/43875-BoucherieWestVillage-menu.pdf,menu_urls/boucherie-west-village.pdf
+Seafood, The Seaport, The Fulton,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41106-Fulton-menu.pdf,menu_urls/the-fulton.pdf
+Greek, Flatiron District, Kyma,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40563-Kyma-menu.pdf,menu_urls/kyma.pdf
+Italian, Flatiron District, Bar Milano by Eataly,,
+Italian, Upper East Side, Altesi Ristorante,,
+Barbecue, Battery Park City, Blue Smoke,,
+American (New), Lower Manhattan, Temple Court by Tom Colicchio,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40069-TempleCourtbyTomColicchio-menu.pdf,menu_urls/temple-court-by-tom-colicchio.pdf
+Steakhouse, Midtown East, Empire Steak House - Midtown East,,
+Chinese, Long Island City, Hupo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48482-Hupo-menu.pdf,menu_urls/hupo.pdf
+Italian, Upper West Side, Pappardella,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44776-Pappardella-menu.pdf,menu_urls/pappardella.pdf
+Japanese / Sushi, Greenwich Village, Ootoya - Union Square,,
+French, Upper West Side, Nice Matin,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/23936-NiceMatin-menu.pdf,menu_urls/nice-matin.pdf
+Mediterranean, Upper West Side, Dagon,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46071-Dagon-menu.pdf,menu_urls/dagon.pdf
+American (New), Greenpoint, Sereneco,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45838-Sereneco-menu.pdf,menu_urls/sereneco.pdf
+American (New), Midtown West, The Bar Room at The Modern,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41033-BarRoomatTheModern-menu.pdf,menu_urls/the-bar-room-at-the-modern.pdf
+American (New), The Seaport, Urban Cove Society & Kitchen,,
+American (New), Midtown West, Michael's,,
+Japanese / Sushi, Nolita, Momoya Soho,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46600-MomoyaSoho-menu.pdf,menu_urls/momoya-soho.pdf
+Puerto Rican, Hamilton Heights, Sofrito on the Hudson,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/29925-SofritoontheHudson-menu.pdf,menu_urls/sofrito-on-the-hudson.pdf
+Mediterranean, Upper East Side, Amali,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/33662-Amali-menu.pdf,menu_urls/amali.pdf
+American (New), Soho, The Dutch,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36694-Dutch-menu.pdf,menu_urls/the-dutch.pdf
+American (New), Garment District, Versa,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39631-Versa-menu.pdf,menu_urls/versa.pdf
+Steakhouse, Astoria, Meet the Meat,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40026-MeettheMeat-menu.pdf,menu_urls/meet-the-meat.pdf
+Irish, Times Square/Theatre District, The Long Room,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46442-LongRoom-menu.pdf,menu_urls/the-long-room.pdf
+Italian, Gramercy, Rosemary's East,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45430-Rosemary%27sEast-menu.pdf,menu_urls/rosemarys-east.pdf
+Pan-Asian, Chelsea, Piggyback,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46078-Piggyback-menu.pdf,menu_urls/piggyback.pdf
+Mexican, Rosebank, Maizal,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44355-Maizal-menu.pdf,menu_urls/maizal.pdf
+Japanese / Sushi, The Seaport, Suteishi,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44557-Suteishi-menu.pdf,menu_urls/suteishi.pdf
+Italian, Hells Kitchen, Nizza,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44381-Nizza-menu.pdf,menu_urls/nizza.pdf
+Gastropub, The Seaport, The Tuck Room,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40042-TuckRoom-menu.pdf,menu_urls/the-tuck-room.pdf
+Italian, Upper East Side, Nino's,,
+Italian, Midtown West, Chazz Palminteri Italian Restaurant,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39371-ChazzPalminteriItalianRestaurant-menu.pdf,menu_urls/chazz-palminteri-italian-restaurant.pdf
+Italian, Little Italy, Il Cortile,,
+Steakhouse, The Seaport, Carne Mare,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45784-CarneMare-menu.pdf,menu_urls/carne-mare.pdf
+American (New), Tribeca, Tribeca Grill,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/9740-TribecaGrill-menu.pdf,menu_urls/tribeca-grill.pdf
+Italian, Hells Kitchen, Bocca Di Bacco—Theatre District,,
+Latin American, Park Slope, Palo Santo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45493-PaloSanto-menu.pdf,menu_urls/palo-santo.pdf
+Italian, Tribeca, Gran Morsi,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38779-GranMorsi-menu.pdf,menu_urls/gran-morsi.pdf
+Thai, Bushwick, Tong,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47939-Tong-menu.pdf,menu_urls/tong.pdf
+American (New), Nomad, The Ivy Room,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48192-IvyRoom-menu.pdf,menu_urls/the-ivy-room.pdf
+Steakhouse, Midtown West, Del Frisco's Grille,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36465-DelFrisco%27sGrille-menu.pdf,menu_urls/del-friscos-grille.pdf
+Japanese / Sushi, Midtown West, Yama Ramen,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44306-YamaRamen-menu.pdf,menu_urls/yama-ramen.pdf
+Greek, Tribeca, Thalassa,,
+Burgers, Midtown East, Empire Burger House,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44670-EmpireBurgerHouse-menu.pdf,menu_urls/empire-burger-house.pdf
+Korean, Soho, The Woo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40765-Woo-menu.pdf,menu_urls/the-woo.pdf
+American (New), Harlem, Archer & Goat,,
+American (Traditional), Battery Park City, Treadwell Park - Downtown,,
+French, Greenwich Village, Claudette,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39068-Claudette-menu.pdf,menu_urls/claudette.pdf
+American (New), West Village, Hancock St,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45663-HancockSt-menu.pdf,menu_urls/hancock-st.pdf
+American (New), Roosevelt Island, Anything At All,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46645-AnythingAtAll-menu.pdf,menu_urls/anything-at-all.pdf
+Mediterranean, Midtown East, Fig & Olive—Midtown,,
+American (New), Upper West Side, Prohibition,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37261-Prohibition-menu.pdf,menu_urls/prohibition.pdf
+French, Noho, Lafayette,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/37827-Lafayette-menu.pdf,menu_urls/lafayette.pdf
+Brazilian, Midtown West, Churrascaria Plataforma Brazilian Steakhouse,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38733-ChurrascariaPlataformaBrazilianSteakhouse-menu.pdf,menu_urls/churrascaria-plataforma-brazilian-steakhouse.pdf
+American (Traditional), Park Slope, The Dram Shop Bar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45821-DramShopBar-menu.pdf,menu_urls/the-dram-shop-bar.pdf
+Italian, Chelsea, Ci Siamo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46090-CiSiamo-menu.pdf,menu_urls/ci-siamo.pdf
+Steakhouse, Times Square/Theatre District, Charlie Palmer Steak IV,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39448-CharliePalmerSteakIV-menu.pdf,menu_urls/charlie-palmer-steak-iv.pdf
+American (New), The Seaport, Malibu Farm,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44633-MalibuFarm-menu.pdf,menu_urls/malibu-farm.pdf
+Asian Fusion, East Village, TLK by Tigerlily Kitchen,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44197-TLKbyTigerlilyKitchen-menu.pdf,menu_urls/tlk-by-tigerlily-kitchen.pdf
+Mexican, Upper East Side, Maya,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/23489-Maya-menu.pdf,menu_urls/maya.pdf
+Italian, Soho, San Carlo Osteria Piemonte,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40258-SanCarloOsteriaPiemonte-menu.pdf,menu_urls/san-carlo-osteria-piemonte.pdf
+Italian, Midtown East, Casa Lever,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38745-CasaLever-menu.pdf,menu_urls/casa-lever.pdf
+American (New), Upper West Side, The Ribbon—Upper West Side,,
+Italian, Lower Manhattan, Vino &... - Eataly NYC Downtown,,
+Greek, Midtown West, Iris,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46190-Iris-menu.pdf,menu_urls/iris.pdf
+American (Traditional), Hells Kitchen, 5 Napkin Burger - Hell's Kitchen,,
+Irish, Upper East Side, Doc Watson's,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48552-DocWatson%27s-menu.pdf,menu_urls/doc-watsons.pdf
+Italian, Long Island City, Maiella,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39720-Maiella-menu.pdf,menu_urls/maiella.pdf
+American (Traditional), Lower Manhattan, Mezze on the River,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41658-MezzeontheRiver-menu.pdf,menu_urls/mezze-on-the-river.pdf
+American (New), Bay Ridge, Cebu Bar & Bistro,,
+Italian, Upper East Side, Cacio e Pepe - Upper East Side,,
+Italian, Soho, Altesi Downtown,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/30900-AltesiDowntown-menu.pdf,menu_urls/altesi-downtown.pdf
+British, Flatiron District, The Clocktower,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39469-Clocktower-menu.pdf,menu_urls/the-clocktower.pdf
+Italian, Midtown West, Gabriel's Bar & Restaurant,,
+Steakhouse, Midtown West, Empire Steak House - Midtown West,,
+American (New), Upper East Side, Merchants Cigar Bar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45581-MerchantsCigarBar-menu.pdf,menu_urls/merchants-cigar-bar.pdf
+French, Upper East Side, Cafe D'Alsace,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/28617-CafeD%27Alsace-menu.pdf,menu_urls/cafe-dalsace.pdf
+American (New), Midtown East, UN Plaza Grill,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44404-UNPlazaGrill-menu.pdf,menu_urls/un-plaza-grill.pdf
+Italian, Upper West Side, Cibo e Vino,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41670-CiboeVino-menu.pdf,menu_urls/cibo-e-vino.pdf
+American (New), Upper West Side, Nougatine at Jean-Georges,,
+Korean, East Village, Soogil,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41016-Soogil-menu.pdf,menu_urls/soogil.pdf
+Italian, Battery Park City, Sant Ambroeus—Brookfield,,
+American (Traditional), Lower Manhattan, Stout NYC Financial District,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46499-StoutNYCFinancialDistrict-menu.pdf,menu_urls/stout-nyc-financial-district.pdf
+Italian, Flatiron District, Obicà Mozzarella Bar Pizza e Cucina,,
+Mediterranean, Williamsburg, Fandi Mata,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46443-FandiMata-menu.pdf,menu_urls/fandi-mata.pdf
+Barbecue, Prospect Heights, Morgan's Brooklyn Barbecue,,
+Mediterranean, Hells Kitchen, Kashkaval Garden,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45640-KashkavalGarden-menu.pdf,menu_urls/kashkaval-garden.pdf
+Gastropub, Herald Square, Féile,,
+American (New), Gramercy, The Dining Room at Gramercy Tavern,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46438-DiningRoomatGramercyTavern-menu.pdf,menu_urls/the-dining-room-at-gramercy-tavern.pdf
+Steakhouse, Lower Manhattan, Delmonico's,,
+French, Upper West Side, French Roast,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/23932-FrenchRoast-menu.pdf,menu_urls/french-roast.pdf
+Italian, Upper East Side, Il Mulino New York | Uptown,,
+American (New), Lower Manhattan, Crown Shy,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46520-CrownShy-menu.pdf,menu_urls/crown-shy.pdf
+Spanish, Hudson Yards, Leña at Mercado Little Spain,,
+Steakhouse, Midtown West, Porter House Bar and Grill,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/28699-PorterHouseBarandGrill-menu.pdf,menu_urls/porter-house-bar-and-grill.pdf
+American (New), Washington Heights, The Uptown Garrison,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45361-UptownGarrison-menu.pdf,menu_urls/the-uptown-garrison.pdf
+Mediterranean, Union Square, Reyna,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48008-Reyna-menu.pdf,menu_urls/reyna.pdf
+Italian, West Village, Sotto 13,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48711-Sotto13-menu.pdf,menu_urls/sotto-13.pdf
+American (Traditional), Garment District, Stout NYC Bryant Park,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46501-StoutNYCBryantPark-menu.pdf,menu_urls/stout-nyc-bryant-park.pdf
+Thai, Nomad, Kraam,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49068-Kraam-menu.pdf,menu_urls/kraam.pdf
+Italian, Times Square/Theatre District, AperiBar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47847-AperiBar-menu.pdf,menu_urls/aperibar.pdf
+Seafood, Gramercy, Oceans,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44325-Oceans-menu.pdf,menu_urls/oceans.pdf
+Italian, Harlem, Lido,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/36475-Lido-menu.pdf,menu_urls/lido.pdf
+Continental, Midtown West, The Russian Tea Room,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/12083-RussianTeaRoom-menu.pdf,menu_urls/the-russian-tea-room.pdf
+Italian, West Village, Morandi,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40775-Morandi-menu.pdf,menu_urls/morandi.pdf
+American (New), Upper West Side, Sarabeth's Upper West Side,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38411-Sarabeth%27sUpperWestSide-menu.pdf,menu_urls/sarabeths-upper-west-side.pdf
+Italian, Midtown East, La Gioconda,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45508-LaGioconda-menu.pdf,menu_urls/la-gioconda.pdf
+Spanish, Morris Park, Absolutto Cuisine & Bar,,
+Mediterranean, Union Square, Pierre Loti Wine Bar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44985-PierreLotiWineBar-menu.pdf,menu_urls/pierre-loti-wine-bar.pdf
+American (Traditional), Upper East Side, Treadwell Park - Upper East Side,,
+Seafood, Times Square/Theatre District, Mermaid Oyster Bar - Times Square,,
+American (Traditional), Herald Square, Stout NYC Penn Station,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46498-StoutNYCPennStation-menu.pdf,menu_urls/stout-nyc-penn-station.pdf
+Steakhouse, Times Square/Theatre District, Frankie & Johnnie's Steakhouse—46th Street,,
+Chinese, Boerum Hill, Shan,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48338-Shan-menu.pdf,menu_urls/shan.pdf
+Eclectic, Park Slope, Lore,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46635-Lore-menu.pdf,menu_urls/lore.pdf
+Italian, Flatiron District, Zero Otto Nove - Flatiron,,
+Mediterranean, Upper West Side, Marlow Bistro,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41671-MarlowBistro-menu.pdf,menu_urls/marlow-bistro.pdf
+Asian Fusion, Harlem, Bixi,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45644-Bixi-menu.pdf,menu_urls/bixi.pdf
+American (New), West Village, Marian's,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48329-Marian%27s-menu.pdf,menu_urls/marians.pdf
+Mexican, Nomad, Sol Mexican Cocina,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48125-SolMexicanCocina-menu.pdf,menu_urls/sol-mexican-cocina.pdf
+American (Traditional), Jackson Heights, The Queensboro,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44560-Queensboro-menu.pdf,menu_urls/the-queensboro.pdf
+Greek, Hells Kitchen, Molyvos,,
+Mediterranean, Midtown West, Limani,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38505-Limani-menu.pdf,menu_urls/limani.pdf
+Mediterranean, Upper East Side, The Blue Mezze Bar,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46106-BlueMezzeBar-menu.pdf,menu_urls/the-blue-mezze-bar.pdf
+French, Hells Kitchen, Marseille,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/20930-Marseille-menu.pdf,menu_urls/marseille.pdf
+Chinese, The Seaport, House of the Red Pearl at Tin Building by Jean-Georges,,
+American (New), Noho, The Library at The Public,,
+Italian, Times Square/Theatre District, Bond 45,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/26385-Bond45-menu.pdf,menu_urls/bond-45.pdf
+Steakhouse, Midtown East, Ben & Jack's Steakhouse—44th Street,,
+American (New), Astoria, Rivercrest,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44219-Rivercrest-menu.pdf,menu_urls/rivercrest.pdf
+Austrian, Lower Manhattan, Schilling,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39763-Schilling-menu.pdf,menu_urls/schilling.pdf
+American (New), Midtown East, Maggie's Place,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46077-MaggiesPlace-menu.pdf,menu_urls/maggies-place.pdf
+Cuban, Times Square/Theatre District, Victor's Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/8278-Victor%27sCafe-menu.pdf,menu_urls/victors-cafe.pdf
+Japanese / Sushi, Soho, Kintsugi,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44620-Kintsugi-menu.pdf,menu_urls/kintsugi.pdf
+Chinese, Chelsea, Philippe by Philippe Chow Downtown,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40967-PhilippebyPhilippeChowDowntown-menu.pdf,menu_urls/philippe-by-philippe-chow-downtown.pdf
+Gastropub, Boerum Hill, Evalyn’s Tap House,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47829-Evalyn%E2%80%99sTapHouse-menu.pdf,menu_urls/evalyns-tap-house.pdf
+Steakhouse, Times Square/Theatre District, Hunt & Fish Club NYC,,
+French, Hells Kitchen, Chez Josephine,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/10405-ChezJosephine-menu.pdf,menu_urls/chez-josephine.pdf
+American (New), Upper West Side, The Wolfe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48557-Wolfe-menu.pdf,menu_urls/the-wolfe.pdf
+Chinese, Flatiron District, Jue Lan Club,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39750-JueLanClub-menu.pdf,menu_urls/jue-lan-club.pdf
+American (New), Williamsburg, Francie,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44609-Francie-menu.pdf,menu_urls/francie.pdf
+American (New), Lower Manhattan, One Dine,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40240-OneDine-menu.pdf,menu_urls/one-dine.pdf
+Italian, Midtown East, Fresco by Scotto,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/17058-FrescobyScotto-menu.pdf,menu_urls/fresco-by-scotto.pdf
+American (New), Midtown East, Ophelia Lounge NYC,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/42037-OpheliaLoungeNYC-menu.pdf,menu_urls/ophelia-lounge-nyc.pdf
+Mexican, Prospect Heights, Alta Calidad,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/44834-AltaCalidad-menu.pdf,menu_urls/alta-calidad.pdf
+Japanese / Sushi, Long Island City, Takumen,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47805-Takumen-menu.pdf,menu_urls/takumen.pdf
+American (New), Lower East Side, Essex,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38771-Essex-menu.pdf,menu_urls/essex.pdf
+American (New), Midtown East, Kurant Wine Bar,,
+American (New), Midtown West, Sarabeth's Central Park South,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/22758-Sarabeth%27sCentralParkSouth-menu.pdf,menu_urls/sarabeths-central-park-south.pdf
+Italian, Upper East Side, Felice 83,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38416-Felice83-menu.pdf,menu_urls/felice-83.pdf
+Italian, Lower Manhattan, Felice 15 Gold Street,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38471-Felice15GoldStreet-menu.pdf,menu_urls/felice-15-gold-street.pdf
+French, The Seaport, T. Brasserie at Tin Building by Jean-Georges,,
+French, Gramercy, Boucherie Union Square,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40454-BoucherieUnionSquare-menu.pdf,menu_urls/boucherie-union-square.pdf
+American (New), Nomad, Blackbarn,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/39236-Blackbarn-menu.pdf,menu_urls/blackbarn.pdf
+Austrian, West Village, Wallsé,,
+Mediterranean, Nomad, ilili,,
+French, Tribeca, Frenchette,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40844-Frenchette-menu.pdf,menu_urls/frenchette.pdf
+French, Garment District, Steak Frites Bistro,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47957-SteakFritesBistro-menu.pdf,menu_urls/steak-frites-bistro.pdf
+Mexican, Battery Park City, El Vez,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38173-ElVez-menu.pdf,menu_urls/el-vez.pdf
+Italian, West Village, Roey's,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45428-Roey%27s-menu.pdf,menu_urls/roeys.pdf
+American (Traditional), Times Square/Theatre District, Hard Rock Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/7681-HardRockCafe-menu.pdf,menu_urls/hard-rock-cafe.pdf
+Turkish, Upper East Side, A La Turka,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46105-ALaTurka-menu.pdf,menu_urls/a-la-turka.pdf
+Mediterranean, Soho, Pera SoHo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/38407-PeraSoHo-menu.pdf,menu_urls/pera-soho.pdf
+Italian, West Village, Olio e Più,,
+Italian, Upper East Side, Il Gradino,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46409-IlGradino-menu.pdf,menu_urls/il-gradino.pdf
+French, Midtown West, Le Rock,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48212-LeRock-menu.pdf,menu_urls/le-rock.pdf
+Spanish, Hudson Yards, La Barra at Mercado Little Spain,,
+Italian, Midtown East, Armani/Ristorante 5th Avenue,,
+Mediterranean, Nomad, Il Fiorista,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41659-IlFiorista-menu.pdf,menu_urls/il-fiorista.pdf
+Mexican, Prospect Heights, Tiny's Cantina,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45496-Tiny%27sCantina-menu.pdf,menu_urls/tinys-cantina.pdf
+Spanish, Midtown West, Addictive NYC,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46551-AddictiveNYC-menu.pdf,menu_urls/addictive-nyc.pdf
+Steakhouse, Midtown East, Benny John's Bar and Grill,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48159-BennyJohn%27sBarandGrill-menu.pdf,menu_urls/benny-johns-bar-and-grill.pdf
+Japanese / Sushi, East Village, SenYa,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41037-SenYa-menu.pdf,menu_urls/senya.pdf
+French, Midtown West, Benoit Restaurant & Wine Bar,,
+Caribbean, East Harlem, The Good Good NYC,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48115-GoodGoodNYC-menu.pdf,menu_urls/the-good-good-nyc.pdf
+Mexican, Noho, Casa Bond NoHo,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48554-CasaBondNoHo-menu.pdf,menu_urls/casa-bond-noho.pdf
+American (Traditional), Lower East Side, Freemans,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/40761-Freemans-menu.pdf,menu_urls/freemans.pdf
+Italian, Boerum Hill, Barbalu Bklyn,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46592-BarbaluBklyn-menu.pdf,menu_urls/barbalu-bklyn.pdf
+French, Midtown West, The Consulate Midtown,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48122-ConsulateMidtown-menu.pdf,menu_urls/the-consulate-midtown.pdf
+American (New), Lower Manhattan, Manhatta,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/41404-Manhatta-menu.pdf,menu_urls/manhatta.pdf
+Caribbean, Williamsburg, Kokomo,,
+Japanese / Sushi, Lower East Side, Storage Room Sushi by Rabbit House,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48147-StorageRoomSushibyRabbitHouse-menu.pdf,menu_urls/storage-room-sushi-by-rabbit-house.pdf
+Italian, Times Square/Theatre District, Sicily Osteria,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46336-SicilyOsteria-menu.pdf,menu_urls/sicily-osteria.pdf
+Asian Fusion, Greenwich Village, Calle Dão - Downtown,,
+Japanese / Sushi, Soho, Sushidelic,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48789-Sushidelic-menu.pdf,menu_urls/sushidelic.pdf
+Italian, West Village, Alaluna,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48972-Alaluna-menu.pdf,menu_urls/alaluna.pdf
+American (Traditional), Forest Hills, Tropix Restaurant & Lounge,,
+Italian, Midtown East, Rosemary's Midtown,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49024-Rosemary%27sMidtown-menu.pdf,menu_urls/rosemarys-midtown.pdf
+American (New), Battery Park City, Del Frisco's Grille - Brookfield Place,,
+Italian, West Village, Ambra,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48517-Ambra-menu.pdf,menu_urls/ambra.pdf
+Steakhouse, Bay Ridge, Hunter's Steak & Ale House,,
+Japanese / Sushi, Williamsburg, Nami Nori - Williamsburg,,
+Italian, Upper East Side, La Voglia,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48518-LaVoglia-menu.pdf,menu_urls/la-voglia.pdf
+Asian Fusion, Noho, Kyu NYC,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46604-KyuNYC-menu.pdf,menu_urls/kyu-nyc.pdf
+American (New), Nomad, NoMad Diner,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49062-NoMadDiner-menu.pdf,menu_urls/nomad-diner.pdf
+Italian, Chelsea, Chelsea Ristorante,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/30229-ChelseaRistorante-menu.pdf,menu_urls/chelsea-ristorante.pdf
+Asian Fusion, Washington Heights, Budda Kitchen & Bar,,
+Thai, Upper East Side, Tha Phraya,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49201-ThaPhraya-menu.pdf,menu_urls/tha-phraya.pdf
+Indian, Union Square, Kanyakumari,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49014-Kanyakumari-menu.pdf,menu_urls/kanyakumari.pdf
+Seafood, Midtown West, Oceana,,
+Argentinian, Times Square/Theatre District, Palermo Argentinian Bistro,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48474-PalermoArgentinianBistro-menu.pdf,menu_urls/palermo-argentinian-bistro.pdf
+African, Harlem, Safari,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/43863-Safari-menu.pdf,menu_urls/safari.pdf
+American (New), Williamsburg, Bar Blondeau,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46010-BarBlondeau-menu.pdf,menu_urls/bar-blondeau.pdf
+Italian, West Village, Travelers Poets & Friends,,
+Spanish, East Elmhurst, Addictive Wine & Tapas Bar,,
+Cajun/Creole, Bayside, Bourbon Street Cafe,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/28819-BourbonStreetCafe-menu.pdf,menu_urls/bourbon-street-cafe.pdf
+Brazilian, Downtown Brooklyn, Fogo de Chão Brazilian Steakhouse - Brooklyn,,
+Italian, Williamsburg, Sungold,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49063-Sungold-menu.pdf,menu_urls/sungold.pdf
+Thai, Greenpoint, Chinta Thai,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49059-ChintaThai-menu.pdf,menu_urls/chinta-thai.pdf
+Italian, Bayside, Papazzio,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45506-Papazzio-menu.pdf,menu_urls/papazzio.pdf
+French, East Village, Cathédrale,,
+Indian, Cobble Hill, Indian Table,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45413-IndianTable-menu.pdf,menu_urls/indian-table.pdf
+French, Little Neck, La Baraka,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46557-LaBaraka-menu.pdf,menu_urls/la-baraka.pdf
+Japanese / Sushi, East Village, Sushi Lab East Village,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48478-SushiLabEastVillage-menu.pdf,menu_urls/sushi-lab-east-village.pdf
+French, West Village, Le B.,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48395-LeB.-menu.pdf,menu_urls/le-b.pdf
+Italian, Upper East Side, Masseria East,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47936-MasseriaEast-menu.pdf,menu_urls/masseria-east.pdf
+Colombian, Upper East Side, María Mulata,,
+Middle Eastern, East Village, Balade,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48315-Balade-menu.pdf,menu_urls/balade.pdf
+Brazilian, Elmhurst, Fogo de Chão Brazilian Steakhouse - Elmhurst,,
+Mediterranean, Midtown West, Acadia,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48687-Acadia-menu.pdf,menu_urls/acadia.pdf
+Jamaican, Woodstock, Flava of the Bronx,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46594-FlavaoftheBronx-menu.pdf,menu_urls/flava-of-the-bronx.pdf
+Brazilian, East Harlem, Bar Goyana,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/45945-BarGoyana-menu.pdf,menu_urls/bar-goyana.pdf
+French, Williamsburg, Le Crocodile,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/42478-LeCrocodile-menu.pdf,menu_urls/le-crocodile.pdf
+American (New), Midtown East, Monterey,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48139-Monterey-menu.pdf,menu_urls/monterey.pdf
+American (New), Midtown East, Four Twenty Five,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48360-FourTwentyFive-menu.pdf,menu_urls/four-twenty-five.pdf
+Italian, Jackson Heights, Romeo's Italian Restaurant,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46488-Romeo%27sItalianRestaurant-menu.pdf,menu_urls/romeos-italian-restaurant.pdf
+American (New), Upper West Side, Abigail's,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49038-Abigail%27s-menu.pdf,menu_urls/abigails.pdf
+Mediterranean, Upper West Side, The Shell Seafood Kitchen,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49132-ShellSeafoodKitchen-menu.pdf,menu_urls/the-shell-seafood-kitchen.pdf
+Japanese / Sushi, Lower East Side, Sake No Hana,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/47937-SakeNoHana-menu.pdf,menu_urls/sake-no-hana.pdf
+Japanese / Sushi, Upper West Side, Momoya - Upper West Side,,
+Delicatessen, Upper East Side, PJ Bernstein,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48484-PJBernstein-menu.pdf,menu_urls/pj-bernstein.pdf
+Japanese / Sushi, Bayside, Masaaki,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48977-Masaaki-menu.pdf,menu_urls/masaaki.pdf
+French, Morningside Heights, Le Monde,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/23933-LeMonde-menu.pdf,menu_urls/le-monde.pdf
+Greek, Upper East Side, Korali Estiatorio,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48244-KoraliEstiatorio-menu.pdf,menu_urls/korali-estiatorio.pdf
+Mexican, Soho, Bar Tulix,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/46390-BarTulix-menu.pdf,menu_urls/bar-tulix.pdf
+Steakhouse, Times Square/Theatre District, The Palm - Midtown,,
+Mexican, Meatpacking District, La Plaz,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/49120-LaPlaz-menu.pdf,menu_urls/la-plaz.pdf
+French, Upper East Side, Jacques Brasserie,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/19032-JacquesBrasserie-menu.pdf,menu_urls/jacques-brasserie.pdf
+Korean, Midtown West, Naro,https://nyc-tourism-public.s3.amazonaws.com/srw24/menus/48763-Naro-menu.pdf,menu_urls/naro.pdf
