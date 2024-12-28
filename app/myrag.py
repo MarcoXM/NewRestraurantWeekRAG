@@ -2,12 +2,14 @@ import os
 import pandas as pd
 import requests
 import re
+import sys
+import shutil
 import pickle
 from langchain import hub
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
@@ -16,6 +18,7 @@ from models import QueryResult
 # Set the OCR_AGENT environment variable
 os.environ['OCR_AGENT'] = 'pytesseract'
 
+IS_USING_IMAGE_RUNTIME = bool(os.getenv("IS_USING_IMAGE_RUNTIME", False))
 
 def sanitize_string(input_string):
     # Remove special characters
@@ -62,7 +65,7 @@ csv_path = 'app/restaurant_menu_urls.csv'  # Path to your CSV file
 download_folder = 'menu_urls'  # Folder to save the downloaded PDFs
 
 
-if not os.path.exists(download_folder):
+if not os.path.exists(download_folder) and not IS_USING_IMAGE_RUNTIME:
     os.makedirs(download_folder)
     print(f"Created folder: {download_folder}")
 
@@ -79,7 +82,40 @@ embeddings = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
 persist_directory = "./db"
 
 
+
+def get_runtime_chroma_path():
+    if IS_USING_IMAGE_RUNTIME:
+        return f"/tmp/{persist_directory}"
+    else:
+        return persist_directory
+
+def copy_chroma_to_tmp(CHROMA_PATH= persist_directory):
+    dst_chroma_path = get_runtime_chroma_path()
+
+    if not os.path.exists(dst_chroma_path):
+        os.makedirs(dst_chroma_path)
+
+    tmp_contents = os.listdir(dst_chroma_path)
+    if len(tmp_contents) == 0:
+        print(f"Copying ChromaDB from {CHROMA_PATH} to {dst_chroma_path}")
+        os.makedirs(dst_chroma_path, exist_ok=True)
+        shutil.copytree(CHROMA_PATH, dst_chroma_path, dirs_exist_ok=True)
+    else:
+        print(f"✅ ChromaDB already exists in {dst_chroma_path}")
+    return dst_chroma_path
+
+
 if os.path.exists(persist_directory) and os.listdir(persist_directory):
+
+    # Hack needed for AWS Lambda's base Python image (to work with an updated version of SQLite).
+    # In Lambda runtime, we need to copy ChromaDB to /tmp so it can have write permissions.
+    if IS_USING_IMAGE_RUNTIME:
+        __import__("pysqlite3")
+        sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
+        # move the file to /tmp and return the new path 
+        persist_directory = copy_chroma_to_tmp()
+    
     print("Loading existing vectorstore...")
     vectorstore = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
 else:
