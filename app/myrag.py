@@ -11,6 +11,7 @@ from langchain_chroma import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
+from models import QueryResult
 
 # Set the OCR_AGENT environment variable
 os.environ['OCR_AGENT'] = 'pytesseract'
@@ -208,9 +209,17 @@ rag_chain = (
 # Function to ask questions
 def ask_question(question):
     print("Answer:\n\n", end=" ", flush=True)
+    ans = ""
     for chunk in rag_chain.stream(question):
         print(chunk, end="", flush=True)
+        ans += chunk
     print("\n")
+    return ans
+
+def query_rag(query_text):
+    answer = ask_question(query_text)
+    return QueryResult(query_text=query_text, answer_text=answer, sources=[],is_complete=True)
+
 
 # Example usage
 if __name__ == "__main__":
