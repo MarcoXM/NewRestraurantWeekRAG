@@ -19,5 +19,10 @@ ENV IS_USING_IMAGE_RUNTIME=True
 RUN mkdir ${LAMBDA_TASK_ROOT}/app
 RUN mkdir ${LAMBDA_TASK_ROOT}/db
 
-COPY app/* ${LAMBDA_TASK_ROOT}/app
-COPY db/* ${LAMBDA_TASK_ROOT}/db
+COPY app ${LAMBDA_TASK_ROOT}/app
+COPY db ${LAMBDA_TASK_ROOT}/db
+
+# Set Python path to include the Lambda root directory
+ENV PYTHONPATH=${LAMBDA_TASK_ROOT}
+
+CMD ["app.api.handler"]
