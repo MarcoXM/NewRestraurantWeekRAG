@@ -3,18 +3,39 @@ import os
 from mangum import Mangum
 from models import QueryRequest, QueryResult
 from myrag import query_rag
-import uuid
+import boto3, json
 
 # Initialize FastAPI app
 app = FastAPI()
 
 # In-memory storage for queries and results
-id_2_queries = {}
+IS_WORKER_LAMBDA_AVAILABLE = os.environ.get("IS_WORKER_LAMBDA_AVAILABLE", None)
 
 
 @app.get("/")
 def index():
     return {"message": "Welcome to the Query Processing API!"}
+
+
+
+
+def invoke_worker_lambda_func(query: QueryResult):
+    # Initialize the Lambda client
+    lambda_client = boto3.client("lambda")
+
+    # Get the QueryResult as a dictionary.
+    print(type(query))
+    payload = query.to_dict()
+
+    # Invoke another Lambda function asynchronously
+    response = lambda_client.invoke(
+        FunctionName=IS_WORKER_LAMBDA_AVAILABLE,
+        InvocationType="Event",
+        Payload=json.dumps(payload),
+    )
+
+    print(f"✅ Worker Lambda invoked: {response}")
+
 
 
 # Endpoint to submit a query
@@ -24,15 +45,22 @@ async def submit_query(request: QueryRequest):
 
     qr = QueryResult(query_text=query_text)
 
-    # Process the query
-    answer = query_rag(query_text)
-
-    qr.answer_text = answer.get("answer")
-    qr.sources = [x.page_content for x in answer.get("context") if x.page_content]
-    qr.is_complete = True
 
 
-    qr.put_item_into_table()
+    if IS_WORKER_LAMBDA_AVAILABLE:
+        qr.put_item_into_table()
+        invoke_worker_lambda_func(qr)
+    
+    else:
+
+        # Process the query, wait for the result
+        answer = query_rag(query_text)
+
+        qr.answer_text = answer.get("answer")
+        qr.sources = [x.page_content for x in answer.get("context") if x.page_content]
+        qr.is_complete = True
+
+        qr.put_item_into_table()
     return qr
 
 

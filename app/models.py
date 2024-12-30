@@ -27,6 +27,13 @@ class QueryResult(BaseModel):
         table = dynamodb.Table(TABLE_NAME)
         return table
     
+    def to_dict(self):
+        # This will work with both v1 and v2
+        try:
+            return self.model_dump()
+        except AttributeError:
+            return self.dict()
+    
     def get_items(self):
         return {
             'query_id': self.query_id,
