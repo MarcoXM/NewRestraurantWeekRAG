@@ -261,13 +261,7 @@ def query_rag(query_text):
     # Get the answer and fill in the QueryResult object
     answer = ask_question(query_text)
 
-    return QueryResult(
-        query_text=query_text,
-        answer_text=answer.get("answer"),
-        sources=[x.page_content for x in answer.get("context") if x.page_content],
-        is_complete=True,
-    )
-
+    return answer
 
 # Example usage
 if __name__ == "__main__":
