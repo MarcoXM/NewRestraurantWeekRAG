@@ -22,20 +22,26 @@ def index():
 async def submit_query(request: QueryRequest):
     query_text = request.query_text
 
-    query_response = query_rag(query_text)
+    qr = QueryResult(query_text=query_text)
 
-    id_2_queries[query_response.query_id] = query_response
-    return query_response
+    # Process the query
+    answer = query_rag(query_text)
+
+    qr.answer_text = answer.get("answer")
+    qr.sources = [x.page_content for x in answer.get("context") if x.page_content]
+    qr.is_complete = True
+
+
+    qr.put_item_into_table()
+    return qr
 
 
 
 # Endpoint to retrieve query results
 @app.get("/get_query/{query_id}", response_model=QueryResult)
 async def get_query(query_id: str):
-    if query_id not in id_2_queries:
-        raise HTTPException(status_code=404, detail="Query not found")
-    result = id_2_queries[query_id]
-    return result
+    query = QueryResult.get_item_from_table(query_id)
+    return query
 
 # Placeholder function to process the query
 def process_query(query):

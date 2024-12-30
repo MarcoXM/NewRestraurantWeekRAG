@@ -92,6 +92,10 @@ class RagAppCdkPythonStack(Stack):
         # Grant the Lambda function permission to read the parameters
         openai_key_param.grant_read(api_function)
 
+        # Grant the Lambda function permission to write to the DynamoDB table
+        rag_query_table.grant_write_data(api_function)
+        rag_query_table.grant_read_data(api_function)
+
 
         # Public URL for the API function.
         # Configure function URL with CORS
