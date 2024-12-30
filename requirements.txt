@@ -11,6 +11,7 @@ webdriver-manager==3.2.2
 Werkzeug==1.0.1
 itsdangerous==2.0.1
 fastapi==0.95.2
+pydantic==1.10.9
 mangum==0.9.1
 pandas==1.5.3
 numpy==1.25.0

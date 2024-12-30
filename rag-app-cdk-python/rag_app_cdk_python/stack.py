@@ -47,6 +47,46 @@ class RagAppCdkPythonStack(Stack):
             partition_key=dynamodb.Attribute(name="query_id", type=dynamodb.AttributeType.STRING),
             billing_mode=dynamodb.BillingMode.PAY_PER_REQUEST
         )
+        
+        worker_image_code = _lambda.DockerImageCode.from_image_asset(
+            "../",  # Better directory structure
+            cmd=["app.worker.handler"], # Handler for the API function Mangum
+            exclude=[
+                'cdk.out',
+                '.git',
+                'node_modules',
+                '*.pyc',
+                '__pycache__',
+                '.env'
+            ],
+            build_args={
+                "platform": "linux/amd64"
+            }
+        )
+        worker_function = _lambda.DockerImageFunction(
+            self, "WorkerFunc",
+            code=worker_image_code,
+            memory_size=256,
+            timeout=Duration.seconds(30),
+            architecture=_lambda.Architecture.X86_64,
+            environment={
+                "TABLE_NAME": rag_query_table.table_name,
+                "LOG_LEVEL": "INFO",
+                "POWERTOOLS_SERVICE_NAME": "rag-api",
+                "POWERTOOLS_METRICS_NAMESPACE": "RagApp",
+                "PYTHONPATH": "/var/task:/var/task/app",
+
+                "LOG_LEVEL": os.getenv("LOG_LEVEL", "INFO"),
+                "REGION": os.getenv("REGION", "us-east-1"),
+                
+                # References to secure parameters
+                "OPENAI_API_KEY": openai_key_param.string_value,
+                
+            },
+            log_retention=logs.RetentionDays.ONE_WEEK,
+            tracing=_lambda.Tracing.ACTIVE  # Enable X-Ray tracing
+        )
+
 
         # Function to handle the API requests. Uses same base image, but different handler.
 
@@ -83,6 +123,7 @@ class RagAppCdkPythonStack(Stack):
                 
                 # References to secure parameters
                 "OPENAI_API_KEY": openai_key_param.string_value,
+                "IS_WORKER_LAMBDA_AVAILABLE": worker_function.function_name
             },
             log_retention=logs.RetentionDays.ONE_WEEK,
             tracing=_lambda.Tracing.ACTIVE  # Enable X-Ray tracing
@@ -95,6 +136,11 @@ class RagAppCdkPythonStack(Stack):
         # Grant the Lambda function permission to write to the DynamoDB table
         rag_query_table.grant_write_data(api_function)
         rag_query_table.grant_read_data(api_function)
+
+        rag_query_table.grant_write_data(worker_function)
+        rag_query_table.grant_read_data(worker_function)
+
+        worker_function.grant_invoke(api_function)
 
 
         # Public URL for the API function.
